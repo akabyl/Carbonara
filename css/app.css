@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 35px;
+}
+.container {
+  max-width: 990px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.wrapper {
+  background-image: url(../image/bg-whiskey.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.logo {
+  margin-right: 35px;
+  overflow: hidden;
+  transition: all .7s ease-in;
+  -webkit-transition: all .7s ease-in;
+  -moz-transition: all .7s ease-in;
+  -ms-transition: all .7s ease-in;
+  -o-transition: all .7s ease-in;
+}
+.logo:hover {
+  transform: scale(.9);
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  -ms-transform: scale(.9);
+  -o-transform: scale(.9);
+}
+.menu {
+  display: flex;
+}
+.list + .list {
+  margin-left: 25px;
+}
+.link {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+.link:hover {
+  color: #4bf050;
+}
+.slider {
+  margin-top: 240px;
+  color: #fff;
+}
+.slider-item {
+}
+.title {
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 141px;
+}
+.subtitle {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.slick-dots {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+}
+.slick-dots li + li {
+  margin-left: 16px;
+}
+.slick-dots button {
+  font-size: 0;
+  border: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+@media (max-width: 1110px) {
+  .title {
+    font-size: 96px;
+    line-height: 120px;
+  }
+  .subtitle {
+    font-size: 27px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 70px;
+    line-height: 94px;
+}
+  .subtitle {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .slick-dots {
+    margin-top: 15px;
+  }
+}
